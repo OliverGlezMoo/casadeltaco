@@ -521,6 +521,29 @@ strong {
   position: relative;
 }
 
+.contact-section {
+  /*background-image: url('../images/EclipseAnular.jpg');*/
+  background-color: #F8E3B6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 .about-image {
   border-radius: var(--border-radius-medium);
   display: block;
